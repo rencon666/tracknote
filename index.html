@@ -8,9 +8,20 @@
 </head>
 <body>
   <h1>ものすごいスピード</h1>
-  <p>サーキット走行＆ツーリング記録アプリ</p>
-  <button onclick="addRecord()">記録を追加</button>
+  <p>サーキット走行とツーリング記録アプリ</p>
+
+  <form id="logForm">
+    <input type="text" id="date" placeholder="日付 (例: 2025-07-07)" required><br>
+    <input type="text" id="place" placeholder="訪れた場所" required><br>
+    <input type="text" id="fuel" placeholder="ガソリン給油 (L)" required><br>
+    <input type="text" id="lodging" placeholder="宿泊費 (円)" required><br>
+    <input type="text" id="note" placeholder="メモ・整備内容など"><br>
+    <button type="submit">記録する</button>
+  </form>
+
+  <h2>記録一覧</h2>
   <ul id="logList"></ul>
-  <script src="script.js"></script>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
