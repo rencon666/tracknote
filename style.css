@@ -1,23 +1,24 @@
+
 body {
-  font-family: sans-serif;
-  padding: 2rem;
-  background: #f0f0f0;
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: #f7f7f7;
 }
 h1 {
-  color: #d10000;
+    color: #b30000;
+}
+form label {
+    display: block;
+    margin-top: 0.5rem;
 }
 button {
-  background: #d10000;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
 }
-ul {
-  margin-top: 1rem;
-}
-li {
-  background: white;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
+#recordsList {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
 }

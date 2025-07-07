@@ -1,27 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ものすごいスピード</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ものすごいスピード</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ものすごいスピード</h1>
-  <p>サーキット走行とツーリング記録アプリ</p>
+    <h1>ものすごいスピード</h1>
+    <p>サーキット走行とツーリング記録アプリ</p>
 
-  <form id="logForm">
-    <input type="text" id="date" placeholder="日付 (例: 2025-07-07)" required><br>
-    <input type="text" id="place" placeholder="訪れた場所" required><br>
-    <input type="text" id="fuel" placeholder="ガソリン給油 (L)" required><br>
-    <input type="text" id="lodging" placeholder="宿泊費 (円)" required><br>
-    <input type="text" id="note" placeholder="メモ・整備内容など"><br>
-    <button type="submit">記録する</button>
-  </form>
+    <form id="recordForm">
+        <label>日付: <input type="date" id="date" required></label><br>
+        <label>訪れた場所: <input type="text" id="place"></label><br>
+        <label>ガソリン給油 (L): <input type="number" id="fuel" step="0.1"></label><br>
+        <label>宿泊費 (円): <input type="number" id="stayCost"></label><br>
+        <label>メモ: <textarea id="note"></textarea></label><br>
+        <button type="submit">記録する</button>
+    </form>
 
-  <h2>記録一覧</h2>
-  <ul id="logList"></ul>
+    <h2>記録一覧</h2>
+    <ul id="recordsList"></ul>
 
-  <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
