@@ -11,18 +11,18 @@
   <h1>ものすごいスピード</h1>
   <p>サーキット走行とツーリング記録アプリ</p>
   <form id="recordForm">
-    <label>日付: <input type="date" id="date" name="date" required /></label><br />
-    <label>訪れた場所: <input type="text" id="location" name="location" /></label><br />
-    <label>ガソリン給油 (L): <input type="number" id="fuel" name="fuel" /></label><br />
-    <label>宿泊費 (円): <input type="number" id="accommodation" name="accommodation" /></label><br />
-    <label>整備内容: <input type="text" id="maintenance" name="maintenance" /></label><br />
-    <label>セッティング: <input type="text" id="setting" name="setting" /></label><br />
-    <label>メモ: <textarea id="memo" name="memo"></textarea></label><br />
-    <label>写真: <input type="file" id="photo" accept="image/*" /></label><br />
+    <label>日付: <input type="date" name="date" required /></label><br />
+    <label>訪れた場所: <input type="text" name="location" /></label><br />
+    <label>ガソリン給油 (L): <input type="number" name="fuel" /></label><br />
+    <label>宿泊費 (円): <input type="number" name="accommodation" /></label><br />
+    <label>整備内容: <input type="text" name="maintenance" /></label><br />
+    <label>セッティング: <input type="text" name="setting" /></label><br />
+    <label>メモ: <textarea name="memo"></textarea></label><br />
+    <label>写真: <input type="file" name="photo" accept="image/*" /></label><br />
     <button type="submit">記録する</button>
   </form>
   <h2>記録一覧</h2>
   <ul id="recordList"></ul>
-  <script src="script.js?v=3"></script>
+  <script src="script.js"></script>
 </body>
 </html>
