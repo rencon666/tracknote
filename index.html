@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css">
-    <title>ものすごいスピード</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ものすごいスピード</title>
 </head>
 <body>
-    <h1>ものすごいスピード</h1>
-    <p>サーキット走行とツーリング記録アプリ</p>
-    <form id="record-form">
-        日付: <input type="date" id="date"><br>
-        訪れた場所: <input type="text" id="location"><br>
-        ガソリン給油 (L): <input type="number" id="gas"><br>
-        宿泊費 (円): <input type="number" id="hotel"><br>
-        整備内容: <input type="text" id="maintenance"><br>
-        セッティング: <input type="text" id="setting"><br>
-        メモ: <textarea id="memo"></textarea><br>
-        写真: <input type="file" id="photo"><br><br>
-        <button type="submit">記録する</button>
-    </form>
-    <h2>記録一覧</h2>
-    <ul id="record-list"></ul>
-    <script src="script.js"></script>
+  <h1>ものすごいスピード</h1>
+  <p>サーキット走行とツーリング記録アプリ</p>
+  <form id="recordForm">
+    <label>日付: <input type="date" id="date" name="date" required /></label><br />
+    <label>訪れた場所: <input type="text" id="location" name="location" /></label><br />
+    <label>ガソリン給油 (L): <input type="number" id="fuel" name="fuel" /></label><br />
+    <label>宿泊費 (円): <input type="number" id="accommodation" name="accommodation" /></label><br />
+    <label>整備内容: <input type="text" id="maintenance" name="maintenance" /></label><br />
+    <label>セッティング: <input type="text" id="setting" name="setting" /></label><br />
+    <label>メモ: <textarea id="memo" name="memo"></textarea></label><br />
+    <label>写真: <input type="file" id="photo" accept="image/*" /></label><br />
+    <button type="submit">記録する</button>
+  </form>
+  <h2>記録一覧</h2>
+  <ul id="recordList"></ul>
+  <script src="script.js"></script>
 </body>
 </html>

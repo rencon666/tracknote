@@ -1,15 +1,18 @@
 body {
   font-family: sans-serif;
-  margin: 2em;
+  padding: 1em;
   background: #f9f9f9;
 }
 h1 {
-  color: #b71c1c;
+  color: darkred;
 }
-button {
-  background: #1976d2;
-  color: white;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: 5px;
+form {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  margin: 0.5em 0;
 }
