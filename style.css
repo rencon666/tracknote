@@ -1,24 +1,5 @@
-
-body {
-    font-family: sans-serif;
-    padding: 1rem;
-    background-color: #f7f7f7;
-}
-h1 {
-    color: #b30000;
-}
-form label {
-    display: block;
-    margin-top: 0.5rem;
-}
-button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-}
-#recordsList {
-    margin-top: 1rem;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 5px;
-}
+body { font-family: sans-serif; padding: 1em; background: #f9f9f9; }
+h1 { color: darkred; }
+label { display: block; margin-top: 0.5em; }
+button { margin-top: 1em; padding: 0.5em 1em; background: #007bff; color: #fff; border: none; border-radius: 4px; }
+#records img { max-width: 100px; margin-top: 0.5em; }

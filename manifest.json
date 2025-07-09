@@ -1,11 +1,13 @@
-
 {
   "name": "ものすごいスピード",
-  "short_name": "スピード",
+  "short_name": "記録アプリ",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
-  "description": "サーキット走行とツーリング記録アプリ",
-  "icons": [],
-  "theme_color": "#b30000"
+  "description": "サーキットとツーリングの記録アプリ",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
 }
